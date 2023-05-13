@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>提交内容</title>
+    <style>
+        body,ul{
+            margin:0;/*清除默认标签*/
+        }
+        ul{
+            padding-left:0;
+            list-style:none;
+        }
+        textarea{
+            display:block;
+            width:500px;
+            height:200px;
+            margin:100px auto 0;
+        }
+        .btn{
+            width:500px;
+            margin:10px auto;
+            text-align:right;
+        }
+        .msg{
+            margin:0 auto;
+            width:500px;
+        }
+        .msglist{
+            line-height:50px;
+            border-bottom:1px dashed #ccc;
+            text-indent: 2em;/*开头空两个字符*/
+        }
+    </style>
+    <script>
+        function improt(){
+        let btn=document.querySelector("button"),//获得button元素
+            textArea=document.querySelector("textarea"),
+            msg=document.querySelector(".msg");
+        btn.onclick=function(){
+            if(textArea.value){
+                msg.innerHTML+="<li class='msglist'>"+textArea.value+"</li>";//将标签信息添加到ul中
+                textArea.value="";//清空输入框
+            }else{
+                alert("你尚未输入信息,请重新输入")
+            }
+        }
+        }
+    </script>
+</head>
+<body>
+    <textarea cols="30" rows="10"></textarea>
+    <div class="btn">
+        <button onclick="improt()">提交</button>
+    </div>
+    <ul class="msg"></ul>
+    
+</body>
+</html>
