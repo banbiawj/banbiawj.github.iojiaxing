@@ -1,0 +1,120 @@
+#body{
+    border-top: 0px;
+    margin: 0px;
+    background-image: url(../picture/);
+    background-color: black;
+}
+
+#navigation{
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    opacity:0.6;
+    position: fixed;
+    background-color:darkcyan;
+    /*background-color:paleturquoise;*/
+}
+
+#navigation-doc{
+    color: white;
+    font-size: 20px;
+    font-family: 宋体;
+    position: absolute;
+	right: 20px;
+	bottom: 10px;
+	margin: auto;
+}
+
+#tag{
+    color: white;
+    font-family: cursive;
+    font-size: 45px;
+    position: absolute;
+    top: 5px;
+    bottom: 0px;
+    left: 10px;
+    margin: auto;
+}
+
+#greet{
+    width: 99%;
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 7.2px;
+    background-image: url(../picture/最佳.jpg);
+    background-color:royalblue;
+}
+
+#content{
+    width: 80%;
+    font-family: 宋体;
+    font-size: 18px;
+    margin-left: 144px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:oldlace;
+}
+
+#catalogue{
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    width: 20%;
+    top: 330px;
+    right: 20px;
+    opacity:0.5;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white;
+}
+
+#catalog{
+    font-family: 宋体;
+    width: 20%;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    opacity: 0.6;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+#title{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color:powderblue;
+}
+
+#picture{
+    float: left;
+    width: 35%;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:deepskyblue;
+}
+
+#list{
+    width: 45%;
+    height:250px;
+    position:relative;
+    opacity:0.5;
+    border-radius: 10px;
+    background-color:seagreen;
+}
+
+#top{
+    width: 20%;
+    position:fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#font{
+    font-size: 70px;
+    
+}
